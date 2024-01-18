@@ -1,0 +1,21 @@
+{
+  "name": "@hubsign/ratelimit",
+  "version": "0.0.10",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "bun test src --coverage",
+    "fmt": "bunx @biomejs/biome check --apply ./src"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "rome": "^11.0.0",
+    "turbo": "^1.10.15",
+    "tsup": "^7.3.0",
+    "typescript": "^5.0.4"
+  }
+}
