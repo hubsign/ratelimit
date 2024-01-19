@@ -6,6 +6,16 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+		"limit",
+		"limited",
+		"concurrency",
+		"throttle",
+		"ratelimit",
+    "rate-limit",
+    "rate-limiting"
+		
+	],
   "scripts": {
     "build": "tsup",
     "test": "bun test src --coverage",

@@ -1,6 +1,8 @@
 # Rate Limit
 
-![npm (scoped)](https://img.shields.io/npm/v/@hubsign/ratelimit)
+> This implements a rate limiting functionality using in-memory storage to track request counts and timestamps for enforcing thresholds over time windows.
+
+> ![npm (scoped)](https://img.shields.io/npm/v/@hubsign/ratelimit)
 
 This library is based on the package @upstash/ratelimit, but uses in-memory storage instead of Redis. It provides rate limiting functionality for controlling the incoming traffic to your application.
 
