@@ -1,21 +1,20 @@
 {
   "name": "@hubsign/ratelimit",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
   "keywords": [
-		"limit",
-		"limited",
-		"concurrency",
-		"throttle",
-		"ratelimit",
+    "limit",
+    "limited",
+    "concurrency",
+    "throttle",
+    "ratelimit",
     "rate-limit",
     "rate-limiting"
-		
-	],
+  ],
   "scripts": {
     "build": "tsup",
     "test": "bun test src --coverage",
